@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node / Remotion
+remotion-studio/node_modules/
+remotion-studio/public/
+remotion-studio/out/
+
+# Input PDFs & Generated Outputs (keep folders via .gitkeep)
+input/*.pdf
+output/
+*.mp4
+*.mp3
+*.png
+
+# OS & Secrets
+.DS_Store
+.env
